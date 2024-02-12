@@ -1,0 +1,20 @@
+{
+    "name": "rasel9w9/dyanamic-table-updater",
+    "description": "This is For Make Dynamic Table Update",
+    "type": "laravel-package",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": ">=6.0"
+    },
+    "authors": [
+        {
+            "name": "Md. Alauddin",
+            "email": "rasel9w9@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rasel9w9\\DynamicTableUpdater\\": "src/"
+        }
+    }
+}

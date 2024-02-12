@@ -1,0 +1,1 @@
+<?php namespace rasel9w9\DynamicTableUpdater;use Illuminate\Support\ServiceProvider;class DynamicTableUpdateServiceProvider extends ServiceProvider{public function register(){}public function boot(){$this->loadRoutesFrom(__DIR__.'/routes/web.php');$this->loadViewsFrom(__DIR__.'/resourches/views','tableupdate');}}

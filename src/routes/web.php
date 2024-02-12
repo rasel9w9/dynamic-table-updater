@@ -1,0 +1,1 @@
+<?php use rasel9w9\DynamicTableUpdater\Controllers\TableUpdateController;use Illuminate\Support\Facades\Route;Route::group(['prefix'=>'rasel9w9','as'=>'rasel9w9.'],function(){Route::get('/table-list',[TableUpdateController::class,'index'])->name('tableList');Route::POST('/dynamic-table-update',[TableUpdateController::class,'dynamicTableUpdate'])->name('dynamicTableUpdate');}) ?>
