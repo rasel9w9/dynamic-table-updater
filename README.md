@@ -24,9 +24,10 @@ To start using Laravel, add the Service Provider and the Facade to your `config/
 # Basic Usage
 
 To use Dynamic table updater.
-firstly clear route cache.
+firstly clear route and config cache.
 ```php
 	//to Clear cache of Route
+	php artisan config:clear
 	php artisan route:clear
 ```
 
